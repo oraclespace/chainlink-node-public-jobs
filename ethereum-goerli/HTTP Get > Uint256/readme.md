@@ -1,4 +1,4 @@
-# HTTP Get > Bool
+# HTTP Get > Uint256
 
 Perform HTTP Get request, parse JSON response and fill uint256.
 
