@@ -16,5 +16,5 @@ JobID: 9af746c7cfbc415c9737b239df9a30ab
 
 The job requires the following parameters to be specified:
 
-* `get` - internet-facing URL from where the bytes/string is retrieved
-* `path` - comma-separated JSON path used to extract the integer value
+* `get` - internet-facing URL from where the data is retrieved
+* `path` - comma-separated JSON path used to extract the value
