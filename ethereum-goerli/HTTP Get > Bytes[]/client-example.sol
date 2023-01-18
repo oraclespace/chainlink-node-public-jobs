@@ -28,7 +28,7 @@ contract GetBytesArray is ChainlinkClient, ConfirmedOwner {
     function requestBytes(
         string memory _url,
         string memory _path
-    ) public onlyOwner {
+    ) public {
         Chainlink.Request memory req = buildChainlinkRequest(
             jobId,
             address(this),

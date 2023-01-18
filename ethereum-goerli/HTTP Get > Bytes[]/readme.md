@@ -4,7 +4,7 @@ Perform HTTP Get request, parse JSON response and fill bytes. May using for rece
 
 ## Available Contract
   
-Contract: [0x0fC22F5620c4aA4813b20bb722f1DD395a3aB548](https://goerli.etherscan.io/address/0x0fC22F5620c4aA4813b20bb722f1DD395a3aB548)
+Contract: [0xC4b3a3B8296d1881b36E3107d45e0447E1F33f15](https://goerli.etherscan.io/address/0xC4b3a3B8296d1881b36E3107d45e0447E1F33f15)
 
 JobID: b4ad328b211f46bfa04ab4e14023e61d
 

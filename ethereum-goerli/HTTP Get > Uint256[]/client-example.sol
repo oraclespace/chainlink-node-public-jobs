@@ -28,7 +28,7 @@ contract GetUint256Array is ChainlinkClient, ConfirmedOwner {
     function requestBytes(
         string memory _url,
         string memory _path
-    ) public onlyOwner {
+    ) public {
         Chainlink.Request memory req = buildChainlinkRequest(
             stringToBytes32(jobId),
             address(this),

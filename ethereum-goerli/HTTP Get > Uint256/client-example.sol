@@ -28,7 +28,7 @@ contract GetUint256 is ChainlinkClient, ConfirmedOwner {
         string memory _url,
         int256 _multiply,
         string memory _path
-    ) public onlyOwner returns (bytes32 requestId) {
+    ) public returns (bytes32 requestId) {
         Chainlink.Request memory req = buildChainlinkRequest(
             stringToBytes32(jobId),
             address(this),

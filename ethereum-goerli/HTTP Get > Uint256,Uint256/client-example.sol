@@ -29,7 +29,7 @@ contract GetDoubleUint256 is ChainlinkClient, ConfirmedOwner {
         string memory _path1,
         string memory _path2,
         int256 _multiply
-    ) public onlyOwner {
+    ) public {
         Chainlink.Request memory req = buildChainlinkRequest(
             stringToBytes32(jobId),
             address(this),

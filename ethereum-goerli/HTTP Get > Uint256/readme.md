@@ -4,7 +4,7 @@ Perform HTTP Get request, parse JSON response and fill uint256.
 
 ## Available Contract
   
-Contract: [0x56e5424b6C857B625C932839a4E1CE1D3EC45957](https://goerli.etherscan.io/address/0x56e5424b6C857B625C932839a4E1CE1D3EC45957)
+Contract: [0x589C4637135B02C8F8e261C1C2b7D4619B0fB885](https://goerli.etherscan.io/address/0x589C4637135B02C8F8e261C1C2b7D4619B0fB885)
 
 JobID: 9af746c7cfbc415c9737b239df9a30ab
 

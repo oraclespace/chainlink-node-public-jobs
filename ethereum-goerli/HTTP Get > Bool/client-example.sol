@@ -21,13 +21,13 @@ contract GetBool is ChainlinkClient, ConfirmedOwner {
     constructor() ConfirmedOwner(msg.sender) {
         setChainlinkToken(0x326C977E6efc84E512bB9C30f76E30c160eD06FB);
         setChainlinkOracle(0x7ecFBD6CB2D3927Aa68B5F2f477737172F11190a);
-        setOraclePayment(10000000000000000);
+        setOraclePayment(((1 * LINK_DIVISIBILITY) / 100));
     }
 
     function requestValue(
         string memory _url,
         string memory _path
-    ) public onlyOwner returns (bytes32 requestId) {
+    ) public returns (bytes32 requestId) {
         Chainlink.Request memory req = buildChainlinkRequest(
             stringToBytes32(jobId),
             address(this),
@@ -69,7 +69,7 @@ contract GetBool is ChainlinkClient, ConfirmedOwner {
     }
 
     function setOraclePayment(uint256 _payment) public onlyOwner {
-      ORACLE_PAYMENT = _payment;
+        ORACLE_PAYMENT = _payment;
     }
 
     function withdrawLink() public onlyOwner {
