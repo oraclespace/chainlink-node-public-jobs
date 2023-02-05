@@ -1,20 +1,23 @@
 # HTTP Get > Uint256[]
 
-Perform HTTP Get request, parse JSON response and fill uint256 array.
+Perform HTTP Get request, parse JSON response and fill array of uint256.
 
-## Available Contract
-  
-Contract: [0x6De9471c21E4c63B0570a374114F98261DAdE300](https://mumbai.polygonscan.com/address/0x6De9471c21E4c63B0570a374114F98261DAdE300)
+## Use in Your Contract
 
+Operator Contract: [0x7ca7215c6B8013f249A195cc107F97c4e623e5F5](https://mumbai.polygonscan.com/address/0x7ca7215c6B8013f249A195cc107F97c4e623e5F5)
 JobID: 3fdf0c58b21f4b539588015ad5ab62a8
 
-## Price
+### Price
 
 0.075 LINK
 
-## Parameters
+### Parameters
 
 The job requires the following parameters to be specified:
 
 * `get` - internet-facing URL from where the data is retrieved
 * `path` - comma-separated JSON path used to extract the value
+
+## Our Client Example Contract
+  
+Client Example Contract: [0x6De9471c21E4c63B0570a374114F98261DAdE300](https://mumbai.polygonscan.com/address/0x6De9471c21E4c63B0570a374114F98261DAdE300)

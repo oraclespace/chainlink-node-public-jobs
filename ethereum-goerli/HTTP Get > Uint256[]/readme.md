@@ -1,20 +1,23 @@
 # HTTP Get > Uint256[]
 
-Perform HTTP Get request, parse JSON response and fill uint256 array.
+Perform HTTP Get request, parse JSON response and fill array of uint256.
 
-## Available Contract
-  
-Contract: [0xc1fA159D90ABd1C0fd04D03067dD01e040784855](https://goerli.etherscan.io/address/0xc1fA159D90ABd1C0fd04D03067dD01e040784855)
+## Use in Your Contract
 
+Operator Contract: [0x7ecFBD6CB2D3927Aa68B5F2f477737172F11190a](https://goerli.etherscan.io/address/0x7ecFBD6CB2D3927Aa68B5F2f477737172F11190a)
 JobID: 3fdf0c58b21f4b539588015ad5ab62a8
 
-## Price
+### Price
 
 0.1 LINK
 
-## Parameters
+### Parameters
 
 The job requires the following parameters to be specified:
 
 * `get` - internet-facing URL from where the data is retrieved
 * `path` - comma-separated JSON path used to extract the value
+
+## Our Client Example Contract
+  
+Client Example Contract: [0xc1fA159D90ABd1C0fd04D03067dD01e040784855](https://goerli.etherscan.io/address/0xc1fA159D90ABd1C0fd04D03067dD01e040784855)
