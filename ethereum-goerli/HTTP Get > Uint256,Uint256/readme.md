@@ -4,7 +4,7 @@ Perform HTTP Get request, parse JSON response and fill double uint256.
 
 ## Use in Your Contract
 
-Operator Contract: [0x7ecFBD6CB2D3927Aa68B5F2f477737172F11190a](https://goerli.etherscan.io/address/0x7ecFBD6CB2D3927Aa68B5F2f477737172F11190a)
+Operator Contract: [0x7ecFBD6CB2D3927Aa68B5F2f477737172F11190a](https://goerli.etherscan.io/address/0x7ecFBD6CB2D3927Aa68B5F2f477737172F11190a)  
 JobID: 50ce6528f1db4b7d888caa3fac23b783
 
 ### Price

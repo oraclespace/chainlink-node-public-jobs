@@ -4,7 +4,7 @@ Perform HTTP Get request, parse JSON response and fill Bool.
 
 ## Use in Your Contract
 
-Operator Contract: [0x7ecFBD6CB2D3927Aa68B5F2f477737172F11190a](https://goerli.etherscan.io/address/0x7ecFBD6CB2D3927Aa68B5F2f477737172F11190a)
+Operator Contract: [0x7ecFBD6CB2D3927Aa68B5F2f477737172F11190a](https://goerli.etherscan.io/address/0x7ecFBD6CB2D3927Aa68B5F2f477737172F11190a)  
 JobID: 380dc2f353f0463eb2371a4635adefd7
 
 ### Price
