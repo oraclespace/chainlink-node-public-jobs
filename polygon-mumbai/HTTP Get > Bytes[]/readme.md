@@ -18,6 +18,11 @@ The job requires the following parameters to be specified:
 * `get` - internet-facing URL from where the data is retrieved
 * `path` - comma-separated JSON path used to extract the value
 
+### Test Parameters
+
+* `get` - https://raw.githubusercontent.com/oraclelabs-link/chainlink-node-public-jobs/master/example-data/array-of-strings.json
+* `path` - data,names
+
 ## Our Client Example Contract
   
 Client Example Contract: [0x0532bA07c1B5F93FCb566A6aF913Ae674315340c](https://mumbai.polygonscan.com/address/0x0532bA07c1B5F93FCb566A6aF913Ae674315340c)

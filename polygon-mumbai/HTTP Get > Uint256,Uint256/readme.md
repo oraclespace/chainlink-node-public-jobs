@@ -22,9 +22,9 @@ The job requires the following parameters to be specified:
 
 ### Test Parameters
 
-* `get` - https://min-api.cryptocompare.com/data/pricemultifull?fsyms=ETH&tsyms=USD
-* `path1` - RAW,ETH,USD,HIGHDAY
-* `path2` - RAW,ETH,USD,LOWDAY
+* `get` - https://raw.githubusercontent.com/oraclelabs-link/chainlink-node-public-jobs/master/example-data/numbers.json
+* `path1` - data,prices,LINK
+* `path2` - data,prices,ETH
 * `multiply` - 100
 
 ## Our Client Example Contract
