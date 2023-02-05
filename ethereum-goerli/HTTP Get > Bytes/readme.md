@@ -26,3 +26,7 @@ The job requires the following parameters to be specified:
 ## Our Client Example Contract
   
 Client Example Contract: [0xCE1cb3599bE219EfcE5F5b444F148e6651405D8c](https://goerli.etherscan.io/address/0xCE1cb3599bE219EfcE5F5b444F148e6651405D8c)
+
+## Have some questions or problems?
+
+[Contact Us!](https://github.com/oraclelabs-link/chainlink-node-public-jobs#contact-us)

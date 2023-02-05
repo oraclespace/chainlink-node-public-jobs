@@ -26,3 +26,7 @@ The job requires the following parameters to be specified:
 ## Our Client Example Contract
   
 Client Example Contract: [0x6De9471c21E4c63B0570a374114F98261DAdE300](https://mumbai.polygonscan.com/address/0x6De9471c21E4c63B0570a374114F98261DAdE300)
+
+## Have some questions or problems?
+
+[Contact Us!](https://github.com/oraclelabs-link/chainlink-node-public-jobs#contact-us)
