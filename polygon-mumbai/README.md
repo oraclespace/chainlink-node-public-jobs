@@ -2,8 +2,6 @@
 
 ## List of jobs
 
-### Comparison table
-
 | Job                         | Availability / Cost |
 | --------------------------- | ------------------- |
 | HTTP Get > Bool             | ✅ / 0.01 LINK      |
