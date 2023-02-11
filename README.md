@@ -34,5 +34,5 @@ We are ready to post your Job. [Contact us!](#contact-us)
 
 ## Contact Us
 
-If you can't find an answer to your question, welcome to our [Discord!](https://discord.com/channels/979501447173533776).  
+If you can't find an answer to your question, welcome to our [Discord!](https://discord.com/channels/979501447173533776) 
 You can also check out [our website](https://www.oraclelabs.link)
