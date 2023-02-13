@@ -2,14 +2,15 @@
 
 ## List of jobs
 
-| Job                         | Availability / Cost |
-| --------------------------- | ------------------- |
-| HTTP Get > Bool             | ✅ / 0.01 LINK      |
-| HTTP Get > Bytes            | ✅ / 0.05 LINK      |
-| HTTP Get > Bytes[]          | ✅ / 0.1 LINK       |
-| HTTP Get > Uint256          | ✅ / 0.025 LINK     |
-| HTTP Get > Uint256,Uint256  | ✅ / 0.05 LINK      |
-| HTTP Get > Uint256[]        | ✅ / 0.1 LINK       |
+| Job                                                        | Availability / Cost |
+| ---------------------------------------------------------- | ------------------- |
+| HTTP Get > Bool                                            | ✅ / 0.01 LINK      |
+| HTTP Get > Bytes                                           | ✅ / 0.05 LINK      |
+| HTTP Get > Bytes[]                                         | ✅ / 0.1 LINK       |
+| HTTP Get > Uint256                                         | ✅ / 0.025 LINK     |
+| HTTP Get > Uint256,Uint256                                 | ✅ / 0.05 LINK      |
+| HTTP Get > Uint256[]                                       | ✅ / 0.1 LINK       |
+| AccuWeather Get Current Conditions by Location Coordinates | ✅ / 0.25 LINK      |
 
 ### Can't find a Job?
 
