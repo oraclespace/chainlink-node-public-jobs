@@ -2,7 +2,7 @@
 
 ## CAUTION
 
-Here is a free version of the AccuWeather API. For this reason, there are restrictions on the number of free requests. If you encounter incorrect operation of your smart contract, our EA may have run out of limits for this day. [Contact us](#have-some-questions-or-problems) if you encounter this problem.
+Here is a free version of the AccuWeather API. For this reason, there are restrictions on the number of free requests. If you encounter incorrect operation of your smart contract, our EA may have run out of limits for today. [Contact us](#have-some-questions-or-problems) if you encounter this problem.
 
 If you need to deploy your AccuWeather API key - [contact us](#have-some-questions-or-problems).
 
