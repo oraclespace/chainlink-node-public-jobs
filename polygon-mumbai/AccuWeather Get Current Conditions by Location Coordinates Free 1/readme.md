@@ -2,9 +2,9 @@
 
 ## CAUTION
 
-Here is a free version of the AccuWeather API. For this reason, there are restrictions on the number of free requests. If you encounter incorrect operation of your smart contract, you may have run out of limits. [Contact us](#have-some-questions-or-problems) if you encounter this problem.
+Here is a free version of the AccuWeather API. For this reason, there are restrictions on the number of free requests. If you encounter incorrect operation of your smart contract, our EA may have run out of limits for today. [Contact us](#have-some-questions-or-problems) if you encounter this problem.
 
-If you need a paid API you can also [contact us](#have-some-questions-or-problems) for a customized approach to you
+If you need to deplay your AccuWeather API key - [contact us](#have-some-questions-or-problems).
 
 ## Description
 
@@ -72,7 +72,7 @@ Note that the units returned from the API need to be converted into proper float
 
 ## More information about Job
 
-If you still have questions about Job, you can:
+If you still have questions about this Job:
 
 - [View LinkPool's official Job page](https://market.link/nodes/2e24e9d0-48dc-4e6e-9e29-b153b5a42d57/integrations) (be warned, at least Goerli Testnet Jobs don't work)
 - [Contact us](#have-some-questions-or-problems)
