@@ -5,7 +5,7 @@ import "@chainlink/contracts/src/v0.8/ChainlinkClient.sol";
 import "@chainlink/contracts/src/v0.8/ConfirmedOwner.sol";
 
 /**
- *
+ * 
  */
 contract AccuweatherLocationCurrentConditionsConsumer is
     ChainlinkClient,
@@ -53,7 +53,7 @@ contract AccuweatherLocationCurrentConditionsConsumer is
     /* ========== CONSTRUCTOR ========== */
     constructor() ConfirmedOwner(msg.sender) {
         setChainlinkToken(0x326C977E6efc84E512bB9C30f76E30c160eD06FB);
-        setChainlinkOracle(0x7ecFBD6CB2D3927Aa68B5F2f477737172F11190a);
+        setChainlinkOracle(0x7ca7215c6B8013f249A195cc107F97c4e623e5F5);
         setOraclePayment(((1 * LINK_DIVISIBILITY) / 100) * 25);
     }
 

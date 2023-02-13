@@ -1,0 +1,42 @@
+type = "directrequest"
+schemaVersion = 1
+name = "OracleLabs AccuWeather Get Current Conditions by Coordinates Free 1"
+externalJobID = "eb894ae8-15a1-4257-b668-2ddff0913e1b"
+forwardingAllowed = false
+maxTaskDuration = "0s"
+contractAddress = "0x7ca7215c6B8013f249A195cc107F97c4e623e5F5"
+minContractPaymentLinkJuels = "250000000000000000"
+observationSource = """
+    decode_log                      [type=ethabidecodelog
+                                     abi="OracleRequest(bytes32 indexed specId, address requester, bytes32 requestId, uint256 payment, address callbackAddr, bytes4 callbackFunctionId, uint256 cancelExpiration, uint256 dataVersion, bytes data)"
+                                     data="$(jobRun.logData)"
+                                     topics="$(jobRun.logTopics)"]
+
+    decode_cbor                     [type=cborparse data="$(decode_log.data)"]
+    
+    accuweather                     [type=bridge
+                                     name="accuweather-free-1"
+                                     requestData="{\\"data\\": {\\"endpoint\\": \\"location-current-conditions\\",\\"lat\\": $(decode_cbor.lat),\\"lon\\": $(decode_cbor.lon),\\"units\\": $(decode_cbor.units)}}"]
+
+    locationFound_parse             [type=jsonparse data="$(accuweather)" path="result,0"]
+    
+    locationResult_parse            [type=jsonparse data="$(accuweather)" path="result,1"]
+    
+    currentConditionsResult_parse   [type=jsonparse data="$(accuweather)" path="result,2"]
+    
+    encode_data                     [type=ethabiencode
+                                     abi="(bytes32 _requestId, bool _locationFound, bytes memory _locationResult, bytes memory _currentConditionsResult)"
+                                     data="{\\"_requestId\\": $(decode_log.requestId),\\"_locationFound\\": $(locationFound_parse),\\"_locationResult\\": $(locationResult_parse),\\"_currentConditionsResult\\": $(currentConditionsResult_parse)}"]
+
+    encode_tx                       [type=ethabiencode
+                                     abi="fulfillOracleRequest2(bytes32 requestId, uint256 payment, address callbackAddress, bytes4 callbackFunctionId, uint256 expiration, bytes calldata data)"
+                                     data="{\\"requestId\\": $(decode_log.requestId),\\"payment\\": $(decode_log.payment),\\"callbackAddress\\": $(decode_log.callbackAddr),\\"callbackFunctionId\\": $(decode_log.callbackFunctionId),\\"expiration\\": $(decode_log.cancelExpiration),\\"data\\": $(encode_data)}"]
+
+    submit_tx                       [type=ethtx to="0x7ca7215c6B8013f249A195cc107F97c4e623e5F5" data="$(encode_tx)"]
+
+    decode_log -> decode_cbor -> accuweather
+    accuweather -> locationFound_parse -> encode_data
+    accuweather -> locationResult_parse -> encode_data
+    accuweather -> currentConditionsResult_parse -> encode_data
+    encode_data -> encode_tx -> submit_tx
+"""
