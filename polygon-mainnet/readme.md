@@ -9,7 +9,7 @@ Important information for the LINK cross-chain transfer!
 >
 > Watch the [Moving Chainlink Cross-Chains video](https://www.youtube.com/watch?v=WKvIGkBWRUA) to learn more.
 
-If you have further questions about this, please [contact us](#have-some-questions-or-problems)
+If you have further questions about this, please [contact us](#have-some-questions-or-problems).
 
 ## List of jobs
 
