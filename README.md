@@ -11,11 +11,9 @@
 
 - Polygon Mainnet
 
-If you need other mainnets and custom jobs, please [contact us](#contact-us).
-
 ### Your network is not on the list?
 
-If you don't find the network you need in the list, [contact us](#contact-us).
+If you don't find the network or Job you need in the list, [contact us](#contact-us).
 
 ## List of jobs
 
