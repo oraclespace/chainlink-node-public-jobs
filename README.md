@@ -9,7 +9,9 @@
 
 ### Mainnets
 
-We do not currently support standard Jobs in mainnets. If you need Jobs in mainnet, please [contact us](#contact-us).
+- Polygon Mainnet
+
+If you need a Job in another mainnet, please [contact us](#contact-us).
 
 ### Your network is not on the list?
 
