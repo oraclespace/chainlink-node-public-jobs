@@ -19,15 +19,15 @@ If you don't find the network you need in the list, [contact us](#contact-us).
 
 ### Comparison table
 
-| Job                                                        | Mumbai          | Goerli          |
-| ---------------------------------------------------------- | --------------- | --------------- |
-| HTTP Get > Bool                                            | ✅ / 0.01 LINK  | ✅ / 0.01 LINK  |
-| HTTP Get > Bytes                                           | ✅ / 0.025 LINK | ✅ / 0.05 LINK  |
-| HTTP Get > Bytes[]                                         | ✅ / 0.05 LINK  | ✅ / 0.1 LINK   |
-| HTTP Get > Uint256                                         | ✅ / 0.02 LINK  | ✅ / 0.025 LINK |
-| HTTP Get > Uint256,Uint256                                 | ✅ / 0.035 LINK | ✅ / 0.05 LINK  |
-| HTTP Get > Uint256[]                                       | ✅ / 0.075 LINK | ✅ / 0.1 LINK   |
-| AccuWeather Get Current Conditions by Location Coordinates | ✅ / 0.25 LINK  | ✅ / 0.25 LINK  |
+| Job                                                        | Polygon Mainnet | Mumbai          | Goerli          |
+| ---------------------------------------------------------- | --------------- | --------------- | --------------- |
+| HTTP Get > Bool                                            | ✅ / 0.1 LINK   | ✅ / 0.01 LINK  | ✅ / 0.01 LINK  |
+| HTTP Get > Bytes                                           | ✅ / 0.15 LINK  | ✅ / 0.025 LINK | ✅ / 0.05 LINK  |
+| HTTP Get > Bytes[]                                         | ❌              | ✅ / 0.05 LINK  | ✅ / 0.1 LINK   |
+| HTTP Get > Uint256                                         | ✅ / 0.1 LINK   | ✅ / 0.02 LINK  | ✅ / 0.025 LINK |
+| HTTP Get > Uint256,Uint256                                 | ✅ / 0.1 LINK   | ✅ / 0.035 LINK | ✅ / 0.05 LINK  |
+| HTTP Get > Uint256[]                                       | ❌              | ✅ / 0.075 LINK | ✅ / 0.1 LINK   |
+| AccuWeather Get Current Conditions by Location Coordinates | ❌              | ✅ / 0.25 LINK  | ✅ / 0.25 LINK  |
 
 ### Can't find a Job?
 
