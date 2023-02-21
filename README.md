@@ -28,7 +28,7 @@ If you don't find the network or Job you need in the list, [contact us](#contact
 | HTTP Get > Bytes[]                                         | ❌              | ✅ / 0.05 LINK  | ✅ / 0.1 LINK   |
 | HTTP Get > Uint256                                         | ✅ / 0.1 LINK   | ✅ / 0.02 LINK  | ✅ / 0.025 LINK |
 | HTTP Get > Uint256,Uint256                                 | ✅ / 0.1 LINK   | ✅ / 0.035 LINK | ✅ / 0.05 LINK  |
-| HTTP Get > Uint256[]                                       | ❌              | ✅ / 0.075 LINK | ✅ / 0.1 LINK   |
+| HTTP Get > Uint256[]                                       | ❌              | ❌              | ❌              |
 | AccuWeather Get Current Conditions by Location Coordinates | ❌              | ✅ / 0.25 LINK  | ✅ / 0.25 LINK  |
 
 ### Can't find a Job?
