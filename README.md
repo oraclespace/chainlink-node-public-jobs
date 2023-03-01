@@ -21,7 +21,7 @@ If you don't find the network or Job you need in the list, [contact us](#contact
 
 ### Comparison table
 
-| Job                                                        | Polygon Mainnet | Mumbai          | Goerli         | Eth Mainnet    |
+| Job                                                        | Polygon Mainnet | Mumbai          | Goerli         | Ethereum Mainnet|
 | ---------------------------------------------------------- | --------------- | --------------- | ---------------|----------------|
 | HTTP Get > Bool                                            | ✅ / 0.1 LINK   | ✅ / 0.01 LINK  | ✅ / 0.01 LINK  | ✅ / 1.35 LINK |
 | HTTP Get > Bytes                                           | ✅ / 0.15 LINK  | ✅ / 0.025 LINK | ✅ / 0.05 LINK  |                |
