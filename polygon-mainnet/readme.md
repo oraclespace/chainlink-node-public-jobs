@@ -20,7 +20,7 @@ If you have further questions about this, please [contact us](#have-some-questio
 | HTTP Get > Bytes[]                                                   | ❌                                                                                          |
 | [HTTP Get > Uint256](./HTTP%20Get%20%3E%20Uint256)                   | ✅ / 0.1 LINK / 🟢                                                                          |
 | [HTTP Get > Uint256,Uint256](./HTTP%20Get%20%3E%20Uint256%2CUint256) | ✅ / 0.1 LINK / 🟢                                                                          |
-| HTTP Get > Uint256[]                                                 | ❌                                                                                          |
+| [HTTP Get > Uint256[]](./HTTP%20Get%20%3E%20Uint256%5B%5D)           | ✅ / 0.1 LINK / 🟢                                                                          |
 | AccuWeather Get Current Conditions by Location Coordinates           | [Provided on request](https://github.com/oraclespace/chainlink-node-public-jobs#contact-us) |
 
 ### Can't find a Job?
