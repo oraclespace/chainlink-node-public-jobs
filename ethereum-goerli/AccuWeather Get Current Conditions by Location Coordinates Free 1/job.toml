@@ -1,6 +1,6 @@
 type = "directrequest"
 schemaVersion = 1
-name = "OracleLabs AccuWeather Get Current Conditions by Coordinates Free 1"
+name = "OracleSpace AccuWeather Get Current Conditions by Coordinates Free 1"
 externalJobID = "eb894ae8-15a1-4257-b668-2ddff0913e1b"
 forwardingAllowed = false
 maxTaskDuration = "0s"

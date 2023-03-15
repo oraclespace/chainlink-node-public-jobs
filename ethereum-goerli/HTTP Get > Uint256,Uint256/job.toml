@@ -1,6 +1,6 @@
 type = "directrequest"
 schemaVersion = 1
-name = "OracleLabs HTTP Get > Uint256,Uint256"
+name = "OracleSpace HTTP Get > Uint256,Uint256"
 maxTaskDuration = "0s"
 externalJobID = "50ce6528-f1db-4b7d-888c-aa3fac23b783"
 contractAddress = "0x7ecFBD6CB2D3927Aa68B5F2f477737172F11190a"

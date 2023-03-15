@@ -1,6 +1,6 @@
 type = "directrequest"
 schemaVersion = 1
-name = "OracleLabs HTTP Get > Bytes"
+name = "OracleSpace HTTP Get > Bytes"
 externalJobID = "9af746c7-cfbc-415c-9737-b239df9a30ab"
 maxTaskDuration = "0s"
 contractAddress = "0x7ecFBD6CB2D3927Aa68B5F2f477737172F11190a"
