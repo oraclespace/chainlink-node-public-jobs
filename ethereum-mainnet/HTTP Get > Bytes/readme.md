@@ -1,4 +1,4 @@
-# OracleSpace HTTP Get > Bytes | 90_000 Max Gas Units Limit | 100 GWEI Max Gas Price Limit
+# OracleSpace HTTP Get > Bytes | 90_000 Max Gas Units Limit | 100 GWEI Max Gas Price Limit on Ethereum Mainnet
 
 ## Warning! This Job have some Limits
 

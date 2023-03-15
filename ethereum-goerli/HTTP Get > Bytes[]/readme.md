@@ -1,4 +1,4 @@
-# HTTP Get > Bytes[]
+# OracleSpace HTTP Get > Bytes[] on Ethereum Goerli
 
 Perform HTTP Get request, parse JSON response and fill array of bytes.
 

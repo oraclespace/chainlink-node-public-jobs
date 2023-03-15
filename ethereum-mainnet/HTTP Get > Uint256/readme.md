@@ -1,4 +1,4 @@
-# OracleSpace HTTP Get > Uint256 | 85_000 Max Gas Units Limit | 100 GWEI Max Gas Price Limit
+# OracleSpace HTTP Get > Uint256 | 85_000 Max Gas Units Limit | 100 GWEI Max Gas Price Limit on Ethereum Mainnet
 
 ## Warning! This Job have some Limits
 
