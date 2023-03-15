@@ -31,9 +31,9 @@ The job requires the following parameters to be specified:
 
 ### Test Parameters
 
-* `get` - https://raw.githubusercontent.com/oraclelabs-link/chainlink-node-public-jobs/master/example-data/data-for-bytes.json
+* `get` - https://raw.githubusercontent.com/oraclespace/chainlink-node-public-jobs/master/example-data/data-for-bytes.json
 * `path` - data,project,name
 
 ## Have some questions or problems?
 
-[Contact Us!](https://github.com/oraclelabs-link/chainlink-node-public-jobs#contact-us)
+[Contact Us!](https://github.com/oraclespace/chainlink-node-public-jobs#contact-us)

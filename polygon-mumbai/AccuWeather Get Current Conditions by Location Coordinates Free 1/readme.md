@@ -83,4 +83,4 @@ Client Example Contract: [0x26F05EcB5d74EbefFBcce5CA5877171DD5a24b4c](https://mu
 
 ## Have some questions or problems?
 
-[Contact Us!](https://github.com/oraclelabs-link/chainlink-node-public-jobs#contact-us)
+[Contact Us!](https://github.com/oraclespace/chainlink-node-public-jobs#contact-us)

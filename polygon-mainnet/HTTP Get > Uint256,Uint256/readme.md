@@ -33,11 +33,11 @@ The job requires the following parameters to be specified:
 
 ### Test Parameters
 
-* `get` - https://raw.githubusercontent.com/oraclelabs-link/chainlink-node-public-jobs/master/example-data/numbers.json
+* `get` - https://raw.githubusercontent.com/oraclespace/chainlink-node-public-jobs/master/example-data/numbers.json
 * `path1` - data,prices,LINK
 * `path2` - data,prices,ETH
 * `multiply` - 100
 
 ## Have some questions or problems?
 
-[Contact Us!](https://github.com/oraclelabs-link/chainlink-node-public-jobs#contact-us)
+[Contact Us!](https://github.com/oraclespace/chainlink-node-public-jobs#contact-us)

@@ -14,4 +14,4 @@
 
 ### Can't find a Job?
 
-We are ready to post your Job. [Contact us!](https://github.com/oraclelabs-link/chainlink-node-public-jobs#contact-us)
+We are ready to post your Job. [Contact us!](https://github.com/oraclespace/chainlink-node-public-jobs#contact-us)

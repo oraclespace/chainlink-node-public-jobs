@@ -20,7 +20,7 @@ The job requires the following parameters to be specified:
 
 ### Test Parameters
 
-* `get` - https://raw.githubusercontent.com/oraclelabs-link/chainlink-node-public-jobs/master/example-data/array-of-strings.json
+* `get` - https://raw.githubusercontent.com/oraclespace/chainlink-node-public-jobs/master/example-data/array-of-strings.json
 * `path` - data,names
 
 ## Our Client Example Contract
@@ -29,4 +29,4 @@ Client Example Contract: [0x0532bA07c1B5F93FCb566A6aF913Ae674315340c](https://mu
 
 ## Have some questions or problems?
 
-[Contact Us!](https://github.com/oraclelabs-link/chainlink-node-public-jobs#contact-us)
+[Contact Us!](https://github.com/oraclespace/chainlink-node-public-jobs#contact-us)

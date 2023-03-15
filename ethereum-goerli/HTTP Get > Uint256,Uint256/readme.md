@@ -22,7 +22,7 @@ The job requires the following parameters to be specified:
 
 ### Test Parameters
 
-* `get` - https://raw.githubusercontent.com/oraclelabs-link/chainlink-node-public-jobs/master/example-data/numbers.json
+* `get` - https://raw.githubusercontent.com/oraclespace/chainlink-node-public-jobs/master/example-data/numbers.json
 * `path1` - data,prices,LINK
 * `path2` - data,prices,ETH
 * `multiply` - 100
@@ -33,4 +33,4 @@ Client Example Contract: [0xCa5B145d81AaE38da9714f90316bF1D8E17fa24B](https://go
 
 ## Have some questions or problems?
 
-[Contact Us!](https://github.com/oraclelabs-link/chainlink-node-public-jobs#contact-us)
+[Contact Us!](https://github.com/oraclespace/chainlink-node-public-jobs#contact-us)

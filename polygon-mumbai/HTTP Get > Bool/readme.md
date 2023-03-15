@@ -20,7 +20,7 @@ The job requires the following parameters to be specified:
 
 ### Test Parameters
 
-* `get` - https://raw.githubusercontent.com/oraclelabs-link/chainlink-node-public-jobs/master/example-data/bool-values.json
+* `get` - https://raw.githubusercontent.com/oraclespace/chainlink-node-public-jobs/master/example-data/bool-values.json
 * `path` - data,trueValue
 
 ## Our Client Example Contract
@@ -29,4 +29,4 @@ Client Example Contract: [0x0B587f767463Df9e678F55A4718f43eE5Fc571Bf](https://mu
 
 ## Have some questions or problems?
 
-[Contact Us!](https://github.com/oraclelabs-link/chainlink-node-public-jobs#contact-us)
+[Contact Us!](https://github.com/oraclespace/chainlink-node-public-jobs#contact-us)
