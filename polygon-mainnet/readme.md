@@ -17,7 +17,7 @@ If you have further questions about this, please [contact us](#have-some-questio
 | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
 | [HTTP Get > Bool](./HTTP%20Get%20%3E%20Bool)                         | ✅ / 0.1 LINK / 🟢                                                                          |
 | [HTTP Get > Bytes](./HTTP%20Get%20%3E%20Bytes)                       | ✅ / 0.15 LINK / 🟢                                                                         |
-| HTTP Get > Bytes[]                                                   | ❌                                                                                          |
+| [HTTP Get > Bytes[]](./HTTP%20Get%20%3E%20Bytes%5B%5D)               | ✅ / 0.15 LINK / 🟢                                                                         |
 | [HTTP Get > Uint256](./HTTP%20Get%20%3E%20Uint256)                   | ✅ / 0.1 LINK / 🟢                                                                          |
 | [HTTP Get > Uint256,Uint256](./HTTP%20Get%20%3E%20Uint256%2CUint256) | ✅ / 0.1 LINK / 🟢                                                                          |
 | [HTTP Get > Uint256[]](./HTTP%20Get%20%3E%20Uint256%5B%5D)           | ✅ / 0.1 LINK / 🟢                                                                          |
