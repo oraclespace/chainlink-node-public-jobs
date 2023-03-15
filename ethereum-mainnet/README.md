@@ -17,15 +17,15 @@ You can find information in the [Gas Units Limit for Fulfill Callback Function](
 
 ## List of jobs
 
-| Job                                                        | Availability / Cost / Limits                                                                                                                                                                      |
-| ---------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| HTTP Get > Bool                                            | ✅ / 1.36 LINK / 🟡 [Gas Price Limit](#attention-public-jobs-have-some-limits-in-this-network) - 100 GWEI, 🟡 [Gas Units Limit](#attention-public-jobs-have-some-limits-in-this-network) - 85_000 |
-| HTTP Get > Bytes                                           | ✅ / 1.62 LINK / 🟡 [Gas Price Limit](#attention-public-jobs-have-some-limits-in-this-network) - 100 GWEI, 🟡 [Gas Units Limit](#attention-public-jobs-have-some-limits-in-this-network) - 90_000 |
-| HTTP Get > Bytes[]                                         | ✅ / 1.62 LINK / 🟡 [Gas Price Limit](#attention-public-jobs-have-some-limits-in-this-network) - 100 GWEI, 🟡 [Gas Units Limit](#attention-public-jobs-have-some-limits-in-this-network) - 90_000 |
-| HTTP Get > Uint256                                         | ✅ / 1.35 LINK / 🟡 [Gas Price Limit](#attention-public-jobs-have-some-limits-in-this-network) - 100 GWEI, 🟡 [Gas Units Limit](#attention-public-jobs-have-some-limits-in-this-network) - 85_000 |
-| HTTP Get > Uint256,Uint256                                 | ✅ / 1.36 LINK / 🟡 [Gas Price Limit](#attention-public-jobs-have-some-limits-in-this-network) - 100 GWEI, 🟡 [Gas Units Limit](#attention-public-jobs-have-some-limits-in-this-network) - 85_000 |
-| HTTP Get > Uint256[]                                       | ❌                                                                                                                                                                                                |
-| AccuWeather Get Current Conditions by Location Coordinates | [Provided on request](https://github.com/oraclespace/chainlink-node-public-jobs#contact-us)                                                                                                       |
+| Job                                                                  | Availability / Cost / Limits                                                                                                                                                                      |
+| -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [HTTP Get > Bool](./HTTP%20Get%20%3E%20Bool)                         | ✅ / 1.36 LINK / 🟡 [Gas Price Limit](#attention-public-jobs-have-some-limits-in-this-network) - 100 GWEI, 🟡 [Gas Units Limit](#attention-public-jobs-have-some-limits-in-this-network) - 85_000 |
+| [HTTP Get > Bytes](./HTTP%20Get%20%3E%20Bytes)                       | ✅ / 1.62 LINK / 🟡 [Gas Price Limit](#attention-public-jobs-have-some-limits-in-this-network) - 100 GWEI, 🟡 [Gas Units Limit](#attention-public-jobs-have-some-limits-in-this-network) - 90_000 |
+| [HTTP Get > Bytes[]](./HTTP%20Get%20%3E%20Bytes%5B%5D)               | ✅ / 1.62 LINK / 🟡 [Gas Price Limit](#attention-public-jobs-have-some-limits-in-this-network) - 100 GWEI, 🟡 [Gas Units Limit](#attention-public-jobs-have-some-limits-in-this-network) - 90_000 |
+| [HTTP Get > Uint256](./HTTP%20Get%20%3E%20Uint256)                   | ✅ / 1.35 LINK / 🟡 [Gas Price Limit](#attention-public-jobs-have-some-limits-in-this-network) - 100 GWEI, 🟡 [Gas Units Limit](#attention-public-jobs-have-some-limits-in-this-network) - 85_000 |
+| [HTTP Get > Uint256,Uint256](./HTTP%20Get%20%3E%20Uint256%2CUint256) | ✅ / 1.36 LINK / 🟡 [Gas Price Limit](#attention-public-jobs-have-some-limits-in-this-network) - 100 GWEI, 🟡 [Gas Units Limit](#attention-public-jobs-have-some-limits-in-this-network) - 85_000 |
+| HTTP Get > Uint256[]                                                 | ❌                                                                                                                                                                                                |
+| AccuWeather Get Current Conditions by Location Coordinates           | [Provided on request](https://github.com/oraclespace/chainlink-node-public-jobs#contact-us)                                                                                                       |
 
 ### Can't find a Job?
 
