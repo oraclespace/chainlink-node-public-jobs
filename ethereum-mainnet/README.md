@@ -1,4 +1,4 @@
-# OracleSpace Public Jobs on Ethereum Mainnet
+# OracleSpace Chainlink Public Jobs on Ethereum Mainnet
 
 ## Attention! Public Jobs have some limits in this network
 
