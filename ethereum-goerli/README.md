@@ -1,4 +1,4 @@
-# Chainlink Node Public Jobs Ethereum Goerli
+# OracleSpace Chainlink Public Jobs on Ethereum Goerli
 
 ## List of jobs
 

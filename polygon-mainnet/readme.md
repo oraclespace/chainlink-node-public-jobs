@@ -1,4 +1,4 @@
-# Chainlink Node Public Jobs Polygon Mainnet
+# OracleSpace Chainlink Public Jobs on Polygon Mainnet
 
 ## ERC-677 LINK on Polygon information
 
