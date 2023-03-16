@@ -14,17 +14,21 @@
 
 ### Your network is not on the list?
 
-If you don't find the network or Job you need in the list, [contact us](#contact-us).
+If you don't find the network or Jobs you need in the list, [contact us](#contact-us).
+
+## Job Limits
+
+For some public Jobs we are forced to use limits. You can learn more about the specific limit by clicking on its link in the [List of jobs section](#list-of-jobs).
+
+### How to get Job without limits?
+
+Just [contact us](https://github.com/oraclespace/chainlink-node-public-jobs#contact-us). We will provide you limitless Job on request soon as possible
 
 ## List of jobs
 
 ### Comparison table
 
 The values for the networks are as follows: _Availability / Cost / Limits_
-
-#### Your Job with limits and you want to make it limitless?
-
-We are ready to place your Job as soon as possible without the specified limits. To do this, please [contact us](https://github.com/oraclespace/chainlink-node-public-jobs#contact-us) and we will discuss the details with you.
 
 | Job                                                        | [Polygon Mainnet](./polygon-mainnet)                                                        | [Polygon Mumbai](./polygon-mumbai)                                                                                                                          | [Ethereum Mainnet](./ethereum-mainnet)                                                                                                                                                                                                                    | [Ethereum Goerli](./ethereum-goerli)                                                                                                                         |
 | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
