@@ -2,18 +2,7 @@
 
 ## Attention! Public Jobs have some limits in this network
 
-Network commissions do not allow us to provide for the same fee in LINK for all types of Fulfillment Callback Function. To insure ourself from extreme fees during periods of Gas Storm, we use next limits for **public jobs**:
-
-- **Gas Units Limit for Fulfill Callback Function Execution** specially configured for each Job. Please, read [Gas Units Limit for Fulfill Callback Function explanation section](#gas-units-limit-for-fulfill-callback-function-explanation) before using us Jobs.
-- **Gas Price Limit** - The **default limit** is **100 GWEI**. **Usually** the Gas Price in this network is **30-70 GWEI**. Public Jobs will not be execute when the price of gas is more than the limit.
-
-### I need Job without limits
-
-We are ready to place your Job as soon as possible without the specified limits. To do this, please [contact us](https://github.com/oraclespace/chainlink-node-public-jobs#contact-us) and we will discuss the details with you.
-
-### If you still have questions how the limits work
-
-You can find information in the [Gas Units Limit for Fulfill Callback Function](#gas-units-limit-for-fulfill-callback-function-explanation) or [contact us](https://github.com/oraclespace/chainlink-node-public-jobs#contact-us) section
+Please read the [appropriate section](#limits-on-this-network) on this page before using Job on this network!
 
 ## List of jobs
 
@@ -30,6 +19,44 @@ You can find information in the [Gas Units Limit for Fulfill Callback Function](
 ### Can't find a Job?
 
 We are ready to post your Job. [Contact us!](https://github.com/oraclespace/chainlink-node-public-jobs#contact-us)
+
+## Limits on this network
+
+Network commissions do not allow us to provide for the same fee in LINK for all types of Fulfillment Callback Function. To insure ourself from extreme fees during periods of Gas Storm, we use next limits for **public jobs**:
+
+- **Gas Units Limit for Fulfill Callback Function Execution** specially configured for each Job. Please, read [Gas Units Limit for Fulfill Callback Function explanation section](#gas-units-limit-for-fulfill-callback-function-explanation) before using us Jobs.
+- **Gas Price Limit** - The **default limit** is **100 GWEI**. **Usually** the Gas Price in this network is **30-70 GWEI**. Public Jobs will not be execute when the price of gas is more than the limit.
+
+### Comparsion Table
+
+|                                    | With Limits                                     | Without Limits |
+| ---------------------------------- | ----------------------------------------------- | -------------- |
+| **Payment**                        | Fixed and small                                 | Individually   |
+| **Waiting For Deploy**             | No, Plug And Play                               | During the day |
+| **Immediate execution**            | Not guaranteed when Gas Price > Gas Price Limit | Yes            |
+| **Fulfill Callback Function Size** | Limited                                         | Unlimited      |
+
+### What happens if my Job runs at a Current Gas Price greater than the Gas Price Limit?
+
+#### In a nutshell
+
+The client contract will pay the LINK immediately, but the Chainlink Node will write the result of the Job into the client contract only after the gas price has returned to the allowable price. Don't worry! If for some reason, your transaction will not be executed even after returning to the valid range, we will find out the reason and return the LINK you spent to execute it, if it is confirmed.
+
+#### Detailed explanation
+
+1. The node detects that the gas price is higher than ETH_MAX_GAS_PRICE_WEI. The node takes the value of ETH_MAX_GAS_PRICE_WEI and sets it as a static gas price and writes a log message like [WARN]. We receive an Alert to the Alert System.
+2. Client calls Job from its ChainlinkClient contract. LINKs are deducted from the customer's contract and transferred to the Operator Contract in the specified amount.
+3. When Job needs to send a transaction (ethtx task) to Operator Contract and call the client callback function, it will fail to do so because the price for gas billed by the node (see point 1) is insufficient to pay the gas. This transaction is postponed. The Chainlink Node remembers that we have an outstanding transaction and tries to execute it periodically (usually every 1-2 min), and writes a log about it at each failed iteration. In this case, usually no ETH is deducted from the Chainlink Node Address for trying to send the transaction.
+4. If the transaction will not be executed in the next 3 blocks from the head, the gas price for the execution of the transaction is increased (paid by the Chainlink Node Address) and a log message is written. The price increase is necessary so that the transaction can be executed as quickly as possible.
+5. As soon as the gas price returns to acceptable values, the Chainlink Node will execute all pending transactions at the next iteration of execution with a higher priority.
+
+### I need Job without limits
+
+We are ready to place your Job as soon as possible without the specified limits. To do this, please [contact us](https://github.com/oraclespace/chainlink-node-public-jobs#contact-us) and we will discuss the details with you.
+
+### If you still have questions how the limits work
+
+You can find information in the [Gas Units Limit for Fulfill Callback Function](#gas-units-limit-for-fulfill-callback-function-explanation) or [contact us](https://github.com/oraclespace/chainlink-node-public-jobs#contact-us) section
 
 ## Gas Units Limit for Fulfill Callback Function explanation
 
