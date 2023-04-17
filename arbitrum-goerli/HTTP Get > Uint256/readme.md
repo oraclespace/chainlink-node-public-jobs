@@ -25,6 +25,13 @@ The job requires the following parameters to be specified:
 - `multiply` - 100
 - `path` - data,prices,LINK
 
+## Supported hosts for REST requests
+
+- HTTPS only
+- SSL certificate must be valid
+- Response size limited to 5MB
+- Response timeout - 30s
+
 ## Have some questions or problems?
 
 [Contact Us!](https://github.com/oraclespace/chainlink-node-public-jobs#contact-us)
