@@ -6,11 +6,13 @@
 
 - [Polygon Mumbai](./polygon-mumbai)
 - [Ethereum Goerli](./ethereum-goerli)
+- [Arbitrum Goerli](./arbitrum-goerli)
 
 ### Mainnets
 
 - [Polygon Mainnet](./polygon-mainnet)
 - [Ethereum Mainnet](./ethereum-mainnet)
+- [Arbitrum Mainnet](./arbitrum-mainnet)
 
 ### Your network is not on the list?
 
