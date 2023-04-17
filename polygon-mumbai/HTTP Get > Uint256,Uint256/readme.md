@@ -15,20 +15,27 @@ JobID: 50ce6528f1db4b7d888caa3fac23b783
 
 The job requires the following parameters to be specified:
 
-* `get` - internet-facing URL from where the data is retrieved
-* `path1` - path to first value
-* `path2` - path to second value
-* `multiply` - int256
+- `get` - internet-facing URL from where the data is retrieved
+- `path1` - path to first value
+- `path2` - path to second value
+- `multiply` - int256
 
 ### Test Parameters
 
-* `get` - https://raw.githubusercontent.com/oraclespace/chainlink-node-public-jobs/master/example-data/numbers.json
-* `path1` - data,prices,LINK
-* `path2` - data,prices,ETH
-* `multiply` - 100
+- `get` - https://raw.githubusercontent.com/oraclespace/chainlink-node-public-jobs/master/example-data/numbers.json
+- `path1` - data,prices,LINK
+- `path2` - data,prices,ETH
+- `multiply` - 100
+
+## Supported hosts for REST requests
+
+- HTTPS only
+- SSL certificate must be valid
+- Response size limited to 5MB
+- Response timeout - 30s
 
 ## Our Client Example Contract
-  
+
 Client Example Contract: [0x1e2d5788DbdA58F58907A3ee8f7812a3A197b1Fa](https://mumbai.polygonscan.com/address/0x1e2d5788DbdA58F58907A3ee8f7812a3A197b1Fa)
 
 ## Have some questions or problems?

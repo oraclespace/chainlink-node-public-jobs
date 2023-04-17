@@ -15,16 +15,23 @@ JobID: 9af746c7cfbc415c9737b239df9a30ab
 
 The job requires the following parameters to be specified:
 
-* `get` - internet-facing URL from where the data is retrieved
-* `path` - comma-separated JSON path used to extract the value
+- `get` - internet-facing URL from where the data is retrieved
+- `path` - comma-separated JSON path used to extract the value
 
 ### Test Parameters
 
-* `get` - https://raw.githubusercontent.com/oraclespace/chainlink-node-public-jobs/master/example-data/data-for-bytes.json
-* `path` - data,project,name
+- `get` - https://raw.githubusercontent.com/oraclespace/chainlink-node-public-jobs/master/example-data/data-for-bytes.json
+- `path` - data,project,name
+
+## Supported hosts for REST requests
+
+- HTTPS only
+- SSL certificate must be valid
+- Response size limited to 5MB
+- Response timeout - 30s
 
 ## Our Client Example Contract
-  
+
 Client Example Contract: [0xCE1cb3599bE219EfcE5F5b444F148e6651405D8c](https://goerli.etherscan.io/address/0xCE1cb3599bE219EfcE5F5b444F148e6651405D8c)
 
 ## Have some questions or problems?

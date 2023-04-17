@@ -6,7 +6,7 @@ Important information for the LINK cross-chain transfer!
 [Official Chainlink documentation](https://docs.chain.link/resources/link-token-contracts/#polygon-mainnet) says:
 
 > The LINK provided by the [Polygon (Matic) Bridge](https://wallet.polygon.technology/polygon/bridge/) is not ERC-677 compatible, so you cannot use it with Chainlink services or oracle nodes. Use the [Chainlink PegSwap service](https://pegswap.chain.link/) to convert bridged LINK to the official ERC-677 LINK token on Polygon.
-> 
+>
 > Watch the [Moving Chainlink Cross-Chains video](https://www.youtube.com/watch?v=WKvIGkBWRUA) to learn more.
 
 If you have further questions about this, please [contact us](#have-some-questions-or-problems)
@@ -35,6 +35,13 @@ The job requires the following parameters to be specified:
 
 - `get` - https://raw.githubusercontent.com/oraclespace/chainlink-node-public-jobs/master/example-data/numbers.json
 - `path` - data,prices,otherPrices
+
+## Supported hosts for REST requests
+
+- HTTPS only
+- SSL certificate must be valid
+- Response size limited to 5MB
+- Response timeout - 30s
 
 ## Have some questions or problems?
 
