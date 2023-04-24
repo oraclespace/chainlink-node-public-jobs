@@ -34,7 +34,7 @@ The job requires the following parameters to be specified:
 - `get` - https://raw.githubusercontent.com/oraclespace/chainlink-node-public-jobs/master/example-data/data-for-bytes.json
 - `path` - data,project,name
 
-## Supported hosts for REST requests
+## REST requests limitations
 
 - HTTPS only
 - SSL certificate must be valid

@@ -38,7 +38,7 @@ The job requires the following parameters to be specified:
 - `multiply` - 100
 - `path` - data,prices,LINK
 
-## Supported hosts for REST requests
+## REST requests limitations
 
 - HTTPS only
 - SSL certificate must be valid

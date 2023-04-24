@@ -38,7 +38,7 @@ The job requires the following parameters to be specified:
 - `path2` - data,prices,ETH
 - `multiply` - 100
 
-## Supported hosts for REST requests
+## REST requests limitations
 
 - HTTPS only
 - SSL certificate must be valid
