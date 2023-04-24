@@ -4,11 +4,11 @@
 
 | Job                                                        | Availability / Cost / Limits                                                                |
 | ---------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| HTTP Get > Bool                                            | ❌                                                                                          |
+| HTTP Get > Bool                                            | ⏳ Coming Soon                                                                              |
 | [HTTP Get > Bytes](./HTTP%20Get%20%3E%20Bytes)             | ✅ / 0.15 LINK / 🟢                                                                         |
-| HTTP Get > Bytes[]                                         | ❌                                                                                          |
+| HTTP Get > Bytes[]                                         | ⏳ Coming Soon                                                                              |
 | [HTTP Get > Uint256](./HTTP%20Get%20%3E%20Uint256)         | ✅ / 0.1 LINK / 🟢                                                                          |
-| HTTP Get > Uint256,Uint256                                 | ❌                                                                                          |
+| HTTP Get > Uint256,Uint256                                 | ⏳ Coming Soon                                                                              |
 | HTTP Get > Uint256[]                                       | ❌                                                                                          |
 | AccuWeather Get Current Conditions by Location Coordinates | [Provided on request](https://github.com/oraclespace/chainlink-node-public-jobs#contact-us) |
 
