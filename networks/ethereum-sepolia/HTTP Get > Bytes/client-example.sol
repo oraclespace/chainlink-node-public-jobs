@@ -7,47 +7,66 @@ import "@chainlink/contracts/src/v0.8/ConfirmedOwner.sol";
 /**
  * @notice DO NOT USE THIS CODE IN PRODUCTION. This is an example contract. Code not audited and Calling functions can have excessive gas consumption.
  */
-contract GetBytesArray is ChainlinkClient, ConfirmedOwner {
+contract GetBytes is ChainlinkClient, ConfirmedOwner {
     using Chainlink for Chainlink.Request;
 
-    bytes[] public arrayOfBytes;
+    bytes public data;
+
+    string public stringData;
 
     uint256 public ORACLE_PAYMENT;
 
-    string public jobId;
+    string constant jobId = "9af746c7cfbc415c9737b239df9a30ab";
 
+    /**
+     *
+     */
     constructor() ConfirmedOwner(msg.sender) {
-        setChainlinkToken(0x514910771AF9Ca656af840dff83E8264EcF986CA);
-        setChainlinkOracle(0x7ecFBD6CB2D3927Aa68B5F2f477737172F11190a);
-        setJobId("b4ad328b211f46bfa04ab4e14023e61d");
-        setOraclePayment(((1 * LINK_DIVISIBILITY) / 100) * 162);
+        setChainlinkToken(0x779877A7B0D9E8603169DdbD7836e478b4624789);
+        setChainlinkOracle(0x0F9c6BCdE15dfFFD95Cfa8F9167b19B433af1abE);
+        setOraclePayment(((1 * LINK_DIVISIBILITY) / 100) * 15);
     }
 
     /**
-     * @notice Request variable bytes[] from the oracle
+     * 
      */
-    function requestBytes(
-        string memory _url,
-        string memory _path
-    ) public {
+    function requestBytes(string memory _url, string memory _path) public {
         Chainlink.Request memory req = buildChainlinkRequest(
-            jobId,
+            stringToBytes32(jobId),
             address(this),
-            this.fulfillBytesArray.selector
+            this.fulfillBytes.selector
         );
         req.add("get", _url);
         req.add("path", _path);
         sendOperatorRequest(req, ORACLE_PAYMENT);
     }
 
-    event RequestFulfilled(bytes32 indexed requestId, bytes[] indexed data);
+    event RequestFulfilled(bytes32 indexed requestId, bytes indexed data);
 
-    function fulfillBytesArray(
+    /**
+     * 
+     */
+    function fulfillBytes(
         bytes32 requestId,
-        bytes[] memory _arrayOfBytes
+        bytes memory bytesData
     ) public recordChainlinkFulfillment(requestId) {
-        emit RequestFulfilled(requestId, _arrayOfBytes);
-        arrayOfBytes = _arrayOfBytes;
+        emit RequestFulfilled(requestId, bytesData);
+        data = bytesData;
+        stringData = string(data);
+    }
+
+    function stringToBytes32(
+        string memory source
+    ) private pure returns (bytes32 result) {
+        bytes memory tempEmptyStringTest = bytes(source);
+        if (tempEmptyStringTest.length == 0) {
+            return 0x0;
+        }
+
+        assembly {
+            // solhint-disable-line no-inline-assembly
+            result := mload(add(source, 32))
+        }
     }
 
     function getOracleAddress() external view returns (address) {
@@ -56,10 +75,6 @@ contract GetBytesArray is ChainlinkClient, ConfirmedOwner {
 
     function setOracle(address _oracle) external onlyOwner {
         setChainlinkOracle(_oracle);
-    }
-
-    function setJobId(string memory _jobId) public onlyOwner {
-        jobId = _jobId;
     }
 
     function setOraclePayment(uint256 _payment) public onlyOwner {
