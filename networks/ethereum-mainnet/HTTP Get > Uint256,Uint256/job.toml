@@ -3,7 +3,7 @@ schemaVersion = 1
 name = "OracleSpace HTTP Get > Uint256,Uint256 | 85_000 Gas Units Limit"
 maxTaskDuration = "0s"
 externalJobID = "50ce6528-f1db-4b7d-888c-aa3fac23b783"
-contractAddress = "0x7ecFBD6CB2D3927Aa68B5F2f477737172F11190a"
+contractAddress = "0xa928d4b087AD35C46BA83331d8eEddb83152319b"
 minContractPaymentLinkJuels = 1360000000000000000
 gasLimit = 85000
 observationSource = """
@@ -31,7 +31,7 @@ observationSource = """
                       data="{\\"requestId\\": $(decode_log.requestId), \\"payment\\": $(decode_log.payment), \\"callbackAddress\\": $(decode_log.callbackAddr), \\"callbackFunctionId\\": $(decode_log.callbackFunctionId), \\"expiration\\": $(decode_log.cancelExpiration), \\"data\\": $(encode_data)}"
                     ]
 
-    submit_tx    [type="ethtx" to="0x7ecFBD6CB2D3927Aa68B5F2f477737172F11190a" data="$(encode_tx)"]
+    submit_tx    [type="ethtx" to="0xa928d4b087AD35C46BA83331d8eEddb83152319b" data="$(encode_tx)"]
 
     decode_log -> decode_cbor -> fetch -> parseVal1 -> multiplyVal1 -> parseVal2 -> multiplyVal2 -> encode_data -> encode_tx -> submit_tx
 """

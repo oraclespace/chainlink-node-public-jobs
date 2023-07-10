@@ -4,7 +4,7 @@ name = "OracleSpace HTTP Get > Bytes[] | 90_000 Gas Units Limit"
 externalJobID = "b4ad328b-211f-46bf-a04a-b4e14023e61d"
 forwardingAllowed = false
 maxTaskDuration = "0s"
-contractAddress = "0x7ecFBD6CB2D3927Aa68B5F2f477737172F11190a"
+contractAddress = "0xa928d4b087AD35C46BA83331d8eEddb83152319b"
 minContractPaymentLinkJuels = "1620000000000000000"
 gasLimit = 90000
 observationSource = """
@@ -29,7 +29,7 @@ observationSource = """
                 data="{\\"requestId\\": $(decode_log.requestId), \\"payment\\":   $(decode_log.payment), \\"callbackAddress\\": $(decode_log.callbackAddr), \\"callbackFunctionId\\": $(decode_log.callbackFunctionId), \\"expiration\\": $(decode_log.cancelExpiration), \\"data\\": $(encode_large)}"
                 ]
 
-    submit_tx    [type="ethtx" to="0x7ecFBD6CB2D3927Aa68B5F2f477737172F11190a" data="$(encode_tx)"]
+    submit_tx    [type="ethtx" to="0xa928d4b087AD35C46BA83331d8eEddb83152319b" data="$(encode_tx)"]
 
     decode_log -> decode_cbor -> fetch -> parse  -> encode_large -> encode_tx -> submit_tx
 """
