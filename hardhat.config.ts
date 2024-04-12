@@ -42,14 +42,6 @@ const config: HardhatUserConfig = {
       ],
     },
 
-    goerli: {
-      url: String(process.env.ETH_NODE_GOERLI_URL_HTTPS),
-      accounts: [
-        String(process.env.ACCOUNT_OWNER_PRIVATE_KEY),
-        String(process.env.ACCOUNT_OTHER_PRIVATE_KEYS),
-      ],
-    },
-
     sepolia: {
       url: String(process.env.ETH_NODE_ETHEREUM_SEPOLIA_URL_HTTPS),
       accounts: [
@@ -65,32 +57,13 @@ const config: HardhatUserConfig = {
         String(process.env.ACCOUNT_OTHER_PRIVATE_KEYS),
       ],
     },
-
-    mumbai: {
-      url: String(process.env.ETH_NODE_MUMBAI_URL_HTTPS),
-      accounts: [
-        String(process.env.ACCOUNT_OWNER_PRIVATE_KEY),
-        String(process.env.ACCOUNT_OTHER_PRIVATE_KEYS),
-      ],
-    },
-
-    arbitrumGoerli: {
-      url: String(process.env.ETH_NODE_ARBITRUM_GOERLI_URL_HTTPS),
-      accounts: [
-        String(process.env.ACCOUNT_OWNER_PRIVATE_KEY),
-        String(process.env.ACCOUNT_OTHER_PRIVATE_KEYS),
-      ],
-    },
   },
 
   etherscan: {
     apiKey: {
       mainnet: String(process.env.ETHERSCAN_API_KEY),
-      goerli: String(process.env.ETHERSCAN_API_KEY),
       sepolia: String(process.env.ETHERSCAN_API_KEY),
       polygon: String(process.env.POLYGONSCAN_API_KEY),
-      polygonMumbai: String(process.env.POLYGONSCAN_API_KEY),
-      arbitrumGoerli: String(process.env.ARBISCAN_API_KEY),
     },
   },
 };
