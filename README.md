@@ -1,6 +1,8 @@
 # OracleSpace Chainlink Public Jobs
 
-## Available Networks
+The project has ended. Thank you to everyone who was with us and used our services. Now it is an archive repository where you can view archived data.
+
+## Archived Networks
 
 ### Mainnets
 
